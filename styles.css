@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+#letterInputs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+#letterInputs > div {
+    max-width: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#letterInputs > div > * {
+    max-width: 100%;
+}
+
+#cryptoInput {
+    padding: 1em;
+    width: 100%;
+}
+
+#output {
+    font-size: xx-large;
+}
